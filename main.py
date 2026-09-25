@@ -1,3 +1,5 @@
+#I did everything I could but it would not work so I changed the entire code...
+
 import sys
 
 sys.stdout.write("Program starting.\n\n")
