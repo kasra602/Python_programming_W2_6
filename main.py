@@ -1,6 +1,6 @@
 print("Program starting.\n")
 
-hexnum = input("Insert a hex color:\n")
+hexnum = input("Insert a hex color: \n")
 hexnum = hexnum.lstrip("#")
 
 red = hexnum[0:2]
