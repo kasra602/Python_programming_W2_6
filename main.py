@@ -1,6 +1,6 @@
-print("program starting.\n\n")
+print("Program starting.\n\n")
 hexnum = input("Insert a hex color: \n")
 red = (hexnum[0:2])
 green = (hexnum[2:4])
 blue = (hexnum[4:6])
-print("Colors\n- Red", red, "\n- Green", green, "\n- Blue", blue, "\n\nprogram ending.\n")
+print("Colors\n- Red", red, "\n- Green", green, "\n- Blue", blue, "\n\nProgram ending.\n")
