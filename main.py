@@ -1,7 +1,7 @@
 print("Program starting.\n\n")
 hexnum = input("Insert a hex color: \n")
+hexnum = hexnum.lstrip("#")
 red = (hexnum[0:2])
 green = (hexnum[2:4])
 blue = (hexnum[4:6])
-hexnum = hexnum.lstrip("#")
 print("Colors\n- Red", red, "\n- Green", green, "\n- Blue", blue, "\n\nProgram ending.\n")
