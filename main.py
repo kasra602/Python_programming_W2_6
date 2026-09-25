@@ -1,4 +1,4 @@
-print("program starting.\n\n")
+print("Program starting.\n\n")
 hexnum = input("Insert a hex color: \n")
 red = (hexnum[1:3])
 green = (hexnum[3:5])
