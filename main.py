@@ -1,21 +1,19 @@
 #I did everything I could but it would not work so I changed the entire code...
 
-import sys
+print("Program starting.")
+print()
 
-sys.stdout.write("Program starting.\n\n")
-
-sys.stdout.write("Insert a hex color: \n")
-hexnum = input().lstrip("#")
+hexnum = input("Insert a hex color: ")
+hexnum = hexnum.lstrip("#")
 
 red = hexnum[0:2]
 green = hexnum[2:4]
 blue = hexnum[4:6]
 
-sys.stdout.write(
-    f"Colors\n"
-    f"- Red {red}\n"
-    f"- Green {green}\n"
-    f"- Blue {blue}\n\n"
-)
+print("Colors")
+print(f"- Red {red}")
+print(f"- Green {green}")
+print(f"- Blue {blue}")
+print()
 
-sys.stdout.write("Program ending.\n")
+print("Program ending.")
